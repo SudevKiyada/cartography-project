@@ -1,6 +1,8 @@
 {
   "name": "cartography-project",
-  "source": ["src/index.html"],
+  "source": [
+    "src/index.html"
+  ],
   "targets": {
     "default": {
       "distDir": "./docs",
