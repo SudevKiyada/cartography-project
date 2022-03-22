@@ -1,8 +1,45 @@
+/* Import all styles */
+/* @import "../../node_modules/bootstrap/dist/css/bootstrap.css"; */
+
 * {
     margin: 0;
     padding: 0;
-  }
+}
 
-h1 {
-    color: purple;
-  }
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.section-head {
+  opacity: 50%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.subtext {
+  text-transform: uppercase;
+  font-weight: 500;
+  opacity: 70%;
+}
+
+.container {
+  margin: 6em auto;
+}
+
+.bi {
+  font-size: 2rem;
+}
+
+.social-links {
+  color: black;
+}
