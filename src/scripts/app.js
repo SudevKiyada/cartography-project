@@ -1,4 +1,5 @@
-// Import all plugins
-import * as bootstrap from 'bootstrap';
+import enterViewScrolly from "../scrolly/scrolly.js";
 
-console.log("Hello");
+import * as bootstrap from "bootstrap";
+
+enterViewScrolly("#doge-scroll");
