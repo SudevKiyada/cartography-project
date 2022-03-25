@@ -55,7 +55,8 @@
       <div class="anno-block row align-items-center" id="block-<%= i %>" >
 
         <% if(block.anno!=='_blank-slide_') { %>
-          <div class="annotation col-6 mx-auto">
+          <div class="annotation col-6 mx-auto d-flex flex-column align-items-center">
+            <p><%= block.sstep %></p><br>
             <p><%= block.anno %></p>
           </div>
         <% } else { %>
@@ -152,17 +153,16 @@
 
   .<%= scrollerEl + "-scroll-wrapper" %> .scroll-foreground .anno-block .annotation{
     pointer-events: all;
-    max-width: 576px;
-
-    border: 1px solid rgba(125, 96, 76, 0.95);
-    border-radius: 10px;
-    text-align: left;
+    max-width: 400px;
+    border-radius: 12px;
+    text-align: center;
     color: black;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0 auto 30px auto;
     background-color: rgba(255, 255, 255, 0.95);
     padding: 1.5rem 1rem 1.5rem 1.5rem;
     height: fit-content;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
   }
 
   .<%= scrollerEl + "-scroll-wrapper" %> .scroll-foreground .anno-block .annotation p{

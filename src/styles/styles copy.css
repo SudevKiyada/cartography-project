@@ -8,13 +8,13 @@
 }
 
 body {
-  font-family: 'Fraunces', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 400;
-  background-color: #FFF3D4;
+  background-color: white;
 }
 
-.actual_width {
-  width: 40%;
+.main {
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -34,8 +34,8 @@ body {
   opacity: 70%;
 }
 
-.m6 {
-  margin: 30vh auto;
+.container {
+  margin: 6em auto;
 }
 
 .bi {
@@ -44,10 +44,4 @@ body {
 
 .social-links {
   color: black;
-}
-
-.infotext {
-  color: #988043;
-  line-height: 1.75rem;
-  font-weight: 400;
 }
